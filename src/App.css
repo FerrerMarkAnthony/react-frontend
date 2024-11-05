@@ -1,0 +1,74 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #036280;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: #036280;
+}
+
+.hero {
+  background-color: #d0e1e7;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.paragraph {
+  color: #012e4a;
+  font-family: "Inter", sans-serif;
+  font-size: 74px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90px;
+  margin-bottom: 30px;
+  z-index: 2;
+  margin-left: 300px;
+  margin-top: 230px;
+}
+
+.image1 {
+  bottom: 100px;
+  left: 100px;
+}
+
+.image2 {
+  right: 55px;
+}
+
+.image3 {
+  bottom: 250px;
+  left: 1200px;
+}
+
+.image4 {
+  top: 200px;
+  right: 400px;
+}
+
+.image5 {
+  top: 200px;
+  right: 600px;
+}
+
+.image6 {
+  top: 30px;
+  left: 600px;
+}
+
+.book-card {
+  width: 250px; /* Set your desired width */
+  height: 350px; /* Set your desired height */
+}
+
+.book-image {
+  height: 150px; /* Set a fixed height for the image */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
